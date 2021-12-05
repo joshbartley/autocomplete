@@ -57,8 +57,7 @@ const createConfig = async ({ root, plugins = [] }) => {
           extract: `${root}/dist/style.css`,
           minimize: true,
         }),
-        ...plugins,
-        terser(),
+        ...plugins, 
       ],
     },
   ])

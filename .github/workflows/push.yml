@@ -18,7 +18,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: code-coverage-report
-          path: packages/autocomplete/dist/autocomplete.min.js     
+          path: packages/autocomplete-js/dist/autocomplete.min.js     
           retention-days: 5
           
       - name: Archive code coverage results
